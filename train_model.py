@@ -23,8 +23,8 @@ base_model_path =  os.path.join(pathlib.Path().absolute(), 'Models')
 sentence_word_limit = 5
 
 if google_cloud:
-    base_data_path = os.path.join(r'/home/amitudedhia/BidOptimization/Code', 'Data')
-    base_model_path = os.path.join(r'/home/amitudedhia/BidOptimization/Code', 'Models')
+    base_data_path = os.path.join(r'/home/madhusudan/BidOptimization/Code', 'Data')
+    base_model_path = os.path.join(r'/home/nadhusudan/BidOptimization/Code', 'Models')
 print("Data file path =", base_data_path)
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu") 
